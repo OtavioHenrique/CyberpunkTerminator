@@ -1,0 +1,23 @@
+[global_config]
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_image = None
+    font = Roboto Mono for Powerline 10
+    foreground_color = "#00ff00"
+    palette = "#000000:#dc322f:#19f520:#1df71a:#ff2eff:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#980822:#ed1127:#1f8cc9:#6c71c4:#146dcc:#fdf6e3"
+    use_system_font = False
+  [[New Profile]]
+    background_image = None
+    font = Noto Mono for Powerline 10
+    use_system_font = False
